@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = 'OpenSSL-Framework'
-  s.version = '1.0.2.a'
+  s.version = '1.0.201'
   s.authors = {
     'OpenSSL Project' => 'openssl-dev@openssl.org',
     'Felix Schulze' => 'x2on@users.noreply.github.com',
@@ -17,6 +17,13 @@ Pod::Spec.new do |s|
 
     This CocoaPod provides OpenSSL as an iOS framework. It uses the OpenSSL-for-iOS scripts from Felix Schulze to
     compile OpenSSL.
+
+    Because OpenSSL's version numbers are not compatible with the CocoaPods version numbering, we use the following
+    numbering scheme (courtesy of FredericJacobs):
+
+    OpenSSL version: A.B.CD will become A.B.C*100 + place of D in the alphabeth.
+
+    Example: OpenSSL 1.0.2a => OpenSSL 1.0.201
   DESC
 
   s.requires_arc = false
