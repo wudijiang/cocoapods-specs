@@ -1,8 +1,12 @@
 Pod::Spec.new do |s|
 
   s.name = 'OpenSSL-Framework'
-  s.version = '1.0.2a'
-  s.authors = { 'OpenSSL Project' => 'openssl-dev@openssl.org', 'Felix Schulze' => 'x2on@users.noreply.github.com' }
+  s.version = '1.0.2.a'
+  s.authors = {
+    'OpenSSL Project' => 'openssl-dev@openssl.org',
+    'Felix Schulze' => 'x2on@users.noreply.github.com',
+    'Dapperstout (Pod maintainer)' => 'sir@dapperstout.com'
+  }
   s.homepage = 'http://www.openssl.org/'
   s.source = { :git => 'https://github.com/dapperstout/OpenSSL-for-iPhone.git', :tag => "#{s.version}" }
   s.summary = 'OpenSSL as an iOS Framework'
