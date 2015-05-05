@@ -1,5 +1,7 @@
 Pod::Spec.new do |s|
 
+  s.deprecated_in_favor_of = 'OpenSSL-for-iOS'
+
   s.name = 'OpenSSL-Framework'
   s.version = '1.0.2'
   s.authors = { 'OpenSSL Project' => 'openssl-dev@openssl.org', 'Felix Schulze' => 'x2on@users.noreply.github.com' }
