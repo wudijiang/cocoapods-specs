@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "lz4"
   s.version      = "123"
-  s.summary      = "Extremely Fast Compression algorithm"
+  s.summary      = "Extremely Fast Compression algorithm123"
 
   s.description  = <<-DESC
                    LZ4 is a very fast lossless compression algorithm, providing compression
